@@ -46,18 +46,18 @@ Additional metadata (structural attributes) are album_code, album_title, album_y
 
 Different albums can not only be differentiated by the full name of the album but also by album codes, composed of three letters. They are as follows: 
 
-TSW - Taylor Swift 
-FER - Fearless
-SPN - Speak Now
-RED - Red
-NEN - 1989
-REP - Reputation
-LVR - Lover 
-FOL - Folklore
-EVE - Evermore
-MID - Midnights
-TPD - The Tortured Poets Department
-OTH - Other Songs
+  TSW - Taylor Swift 
+  FER - Fearless
+  SPN - Speak Now
+  RED - Red
+  NEN - 1989
+  REP - Reputation
+  LVR - Lover 
+  FOL - Folklore
+  EVE - Evermore
+  MID - Midnights
+  TPD - The Tortured Poets Department
+  OTH - Other Songs
 
 
 ## Selection of songs 
