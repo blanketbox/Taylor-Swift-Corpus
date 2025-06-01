@@ -1,0 +1,55 @@
+##
+## registry entry for corpus SWIFT
+##
+
+# long descriptive name for the corpus
+NAME "The Taylor Swift Corpus -- Version 1"
+# corpus ID (must be lowercase in registry!)
+ID   swift
+# path to binary data files
+HOME cove/swift
+# optional info file (displayed by "info;" command in CQP)
+INFO cove/swift/.info
+
+# corpus properties provide additional information about the corpus:
+##:: charset  = "utf8" # character encoding of corpus data
+##:: language = "en"     # insert ISO code for language (de, en, fr, ...)
+
+
+##
+## p-attributes (token annotations)
+##
+
+ATTRIBUTE word
+ATTRIBUTE pos
+ATTRIBUTE class
+ATTRIBUTE lemma
+
+
+##
+## s-attributes (structural markup)
+##
+
+# <album code=".." title=".." year=".." o_year=".."> ... </album>
+# (no recursive embedding allowed)
+STRUCTURE album
+STRUCTURE album_code           # [annotations]
+STRUCTURE album_title          # [annotations]
+STRUCTURE album_year           # [annotations]
+STRUCTURE album_o_year         # [annotations]
+
+# <song number=".." title=".." vault=".." featured=".."> ... </song>
+# (no recursive embedding allowed)
+STRUCTURE song
+STRUCTURE song_number          # [annotations]
+STRUCTURE song_title           # [annotations]
+STRUCTURE song_vault           # [annotations]
+STRUCTURE song_featured        # [annotations]
+
+# <s type=".."> ... </s>
+# (no recursive embedding allowed)
+STRUCTURE s
+STRUCTURE s_type               # [annotations]
+
+
+# Yours sincerely, the Encode tool.

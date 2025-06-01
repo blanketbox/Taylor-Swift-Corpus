@@ -1,0 +1,345 @@
+The Taylor Swift Corpus -- Version 1
+Size: 100763 tokens (approx. 90376 words, 232 songs)
+Compilation date: June 2025
+
+
+Texts and metadata were kindly provided by sagesolar on GitHub (https://github.com/sagesolar/Corpus-of-Taylor-Swift) and processed for the IMS Open Corpus Workbench by Amy Amoakuh.
+
+Copyright disclaimer: I don't own anything.
+
+
+POSITIONAL ATTRIBUTES (token annotations)
+
+word  : token
+pos   : PENN Treebank Tagset
+class : class-tags (e.g. "SUBST", "VERB", "ADJ, "ADV", "DET"...)
+lemma : Lemma (lemmatized by spaCy (en_core_web_trf release 3.8.0))
+
+Usage notes: 
+- lemmata may vary in case, it is advised to use %c when searching for lemmata
+- each line in a song is annotated as <s>...</s>, use "set Context..." to display match with any number of lines
+- tip on how to cite lines: use album_code and song_number, e.g. "TPD 6" 
+
+
+STRUCTURAL ATTRIBUTES 
+
+album_code       
+
+        RED                        
+        TPD                                
+        NEN                                
+        SPN                                
+        FER                                
+        REP                                 
+        LVR                                 
+        MID                                 
+        EVE                                 
+        FOL                                 
+        TSW                                 
+        OTH                                  
+
+album_title     
+
+        Red (Taylor's Version)             
+        The Tortured Poets Department (The Anthology)      
+        1989 (Taylor's Version)                 
+        Speak Now (Taylor's Version)      
+        Fearless (Taylor's Version)       
+        Reputation                         
+        Lover                              
+        Midnights (The Til Dawn Edition)   
+        Evermore                           
+        Folklore                           
+        Taylor Swift                       
+        Other Songs                         
+
+album_year    
+
+        2021                               
+        2023
+        2020
+        2024
+        2017
+        2019
+        2022
+        2006
+        misc                                 
+
+album_o_year [the year in which the first version of the album was released, applies to "Taylor's Version"]
+
+        2012
+        2014
+        2010
+        2008
+
+s_type               
+        chorus
+        verse
+        bridge
+        in_outro
+        refrain
+
+song_vault  [songs that were later released but written at the time of the original album release, applies to "Taylor's Version"]         
+        
+        true
+        false
+
+song_featured [featured artists on the tracks]
+
+        Bon Iver                          
+        Ed Sheeran                        
+        Ed Sheeran, Future                
+        Brendon Urie                      
+        Gary Lightbody                    
+        Chris Stapleton                   
+        Florence + The Machine            
+        Haim                              
+        Phoebe Bridgers                   
+        Lana Del Rey                      
+        Keith Urban                       
+        The National                      
+        Fall Out Boy                      
+        Colbie Caillat                    
+        Post Malone                       
+        Hayley Williams                   
+        Maren Morris                      
+        The Chicks  
+
+song_number [track number on the album]      
+        
+        [number]
+
+song_title      
+
+        All Too Well (10 Minute Version)         
+        I Wish You Would                  
+        End Game                          
+        Shake It Off                      
+        Out Of The Woods                  
+        I Did Something Bad               
+        Me!                               
+        Getaway Car                       
+        But Daddy I Love Him              
+        Miss Americana & The Heartbreak Prince    
+        Look What You Made Me Do          
+        Say Don't Go                      
+        Blank Space                       
+        Better Than Revenge               
+        Delicate                          
+        Don't Blame Me                    
+        New Romantics                     
+        Call It What You Want             
+        Dress                             
+        Sweeter Than Fiction              
+        Timeless                          
+        Paper Rings                       
+        Bad Blood                         
+        All You Had To Do Was Stay        
+        Daylight                          
+        King Of My Heart                  
+        Cruel Summer                      
+        22                                
+        Down Bad                          
+        Would've, Could've, Should've     
+        Foolish One                       
+        The Tortured Poets Department     
+        ...ReadyFor It?                   
+        Gorgeous                          
+        You Are In Love                   
+        Is It Over Now?                   
+        Dancing With Our Hands Tied       
+        Exile                             
+        Mr. Perfectly Fine                
+        This Love                         
+        The Man                           
+        London Boy                        
+        This Is Why We Can't Have Nice Things     
+        Death By A Thousand Cuts          
+        The Story Of Us                   
+        Never Grow Up                     
+        We Are Never Ever Getting Back Together   
+        I Knew You Were Trouble           
+        Who’s Afraid Of Little Old Me?    
+        Better Man                        
+        The Last Time                     
+        Hits Different                    
+        Speak Now                         
+        Betty                             
+        Hey Stephen                       
+        Everything Has Changed            
+        Question...?                      
+        Bejeweled                         
+        Untouchable                       
+        Imgonnagetyouback                 
+        I Can See You                     
+        Babe                              
+        Message In A Bottle               
+        Forever & Always                  
+        Peter                             
+        Back To December                  
+        Mean                              
+        You Need To Calm Down             
+        How You Get The Girl              
+        So Long, London                   
+        I Bet You Think About Me          
+        Fifteen                           
+        Jump Then Fall                    
+        I Think He Knows                  
+        I Can Do It With A Broken Heart   
+        So It Goes...                     
+        Long Live                         
+        Florida!!!                        
+        Mine                              
+        Holy Ground                       
+        So High School                    
+        Right Where You Left Me           
+        Afterglow                         
+        Enchanted                         
+        You Belong With Me                
+        Love Story                        
+        Willow                            
+        Happiness                         
+        Girl At Home                      
+        Wonderland                        
+        Style                             
+        Thank You Aimee                   
+        'Tis The Damn Season              
+        I Know Places                     
+        Long Story Short                  
+        The Other Side Of The Door        
+        The Bolter                        
+        The Very First Night                     
+        August                            
+        Superman                          
+        No Body, No Crime                 
+        I Hate It Here                    
+        Wildest Dreams                    
+        Our Song                          
+        Last Kiss                         
+        Starlight                         
+        Nothing New                       
+        Snow On The Beach (Feat. More Lana Del Rey)       
+        Karma                             
+        Cornelia Street                   
+        Forever Winter                    
+        That's When                       
+        New Year's Day                    
+        Cassandra                         
+        Guilty As Sin?                    
+        Loml                              
+        Coney Island                      
+        Anti-Hero                         
+        Ivy                               
+        Run                               
+        Dear John                         
+        When Emma Falls In Love           
+        "Slut!"
+        It's Time To Go                   
+        Welcome To New York               
+        Should've Said No                 
+        Red                               
+        The Alchemy                       
+        High Infidelity                   
+        Stay Stay Stay                    
+        Evermore                          
+        The Lucky One                     
+        The Way I Loved You               
+        Clean                             
+        Bye Bye Baby                      
+        The Great War                     
+        Maroon                            
+        Sparks Fly                        
+        The Moment I Knew                 
+        You're Not Sorry                  
+        Tell Me Why                       
+        Tim McGraw                        
+        The Best Day                      
+        The Prophecy                      
+        Electric Touch                    
+        Breathe                           
+        Haunted                           
+        Cowboy Like Me                    
+        Fearless                          
+        Mary's Song (Oh My My My)         
+        Gold Rush                         
+        Cardigan                          
+        Begin Again                       
+        Fortnight                         
+        Come Back...Be Here               
+        Today Was A Fairytale             
+        Mastermind                        
+        Castles Crumbling                 
+        Innocent                          
+        Marjorie                          
+        Only The Young                    
+        False God                         
+        Invisible String                  
+        The 1                             
+        I'm Only Me When I'm With You     
+        The Last Great American Dynasty   
+        My Tears Ricochet                 
+        Ronan                             
+        The Smallest Man Who Ever Lived   
+        Tolerate It                       
+        Mad Woman                         
+        White Horse                       
+        Lavender Haze                     
+        Paris                             
+        I Forgot That You Existed         
+        The Archer                        
+        Chloe Or Sam Or Sophia Or Marcus          
+        Picture To Burn                   
+        You're On Your Own, Kid           
+        Stay Beautiful                    
+        Suburban Legends                  
+        Sweet Nothing                     
+        Ours                              
+        Teardrops On My Guitar            
+        Change                            
+        My Boy Only Breaks His Favorite Toys      
+        Peace                             
+        You All Over Me                   
+        Dorothea                          
+        The Black Dog                     
+        Labyrinth                         
+        Fresh Out The Slammer             
+        Now That We Don't Talk            
+        Champagne Problems                
+        State Of Grace                    
+        I Almost Do                       
+        Superstar                         
+        Lover                             
+        Midnight Rain                     
+        Treacherous                       
+        Bigger Than The Whole Sky         
+        Tied Together With A Smile        
+        Vigilante Shit                    
+        Soon You'll Get Better            
+        Dear Reader                       
+        A Place In This World             
+        Clara Bow                         
+        Mirrorball                        
+        Don't You                         
+        Glitch                            
+        I Can Fix Him (No Really I Can)   
+        How Did It End?                   
+        This Is Me Trying                 
+        We Were Happy                     
+        Closure                           
+        Invisible                         
+        Cold As You                       
+        The Outside                       
+        The Albatross                     
+        Carolina                          
+        Illicit Affairs                   
+        A Perfectly Good Heart            
+        Hoax                              
+        The Manuscript                    
+        Come In With The Rain             
+        The Lakes                         
+        Sad Beautiful Tragic              
+        Seven                             
+        Epiphany                          
+        I Look In People's Windows        
+        It's Nice To Have A Friend        
+        Robin                             
