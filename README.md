@@ -40,23 +40,34 @@ In addition, the lemmatization of several verbs with so-called "g-dropping" (e.g
 
 Available language data comprise the POS-tags (Penn Treebank), class-tags (less fine-grained categories than POS) and lemma. 
 
-Songs are tagged as <song>...</song>, albums as <album>...</album>. Every line in every song is tagged as <s>...</s>. 
+Songs are tagged as ```<song>...</song>```, albums as ```<album>...</album>```. Every line in every song is tagged as ```<s>...</s>```. 
 
 Additional metadata (structural attributes) are album_code, album_title, album_year, album_o_year, s_type, song_title, song_number, song_vault and song_featured. For more information on the metadata and the possible values that they take, refer to the file '.info' in the folder 'swift'. 
 
 Different albums can not only be differentiated by the full name of the album but also by album codes, composed of three letters. They are as follows: 
 
   TSW - Taylor Swift 
+
   FER - Fearless
+
   SPN - Speak Now
+  
   RED - Red
+  
   NEN - 1989
+  
   REP - Reputation
+  
   LVR - Lover 
+  
   FOL - Folklore
+  
   EVE - Evermore
+  
   MID - Midnights
+  
   TPD - The Tortured Poets Department
+  
   OTH - Other Songs
 
 
