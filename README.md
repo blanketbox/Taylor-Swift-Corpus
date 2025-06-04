@@ -19,7 +19,7 @@ The corpus comprises 100763 tokens, of which approx. 90376 are words. The corpus
 These corpus files assume familiarity with the IMS Open Corpus Workbench and the corpus query language CQP. The corpus workbench can be downloaded here: https://cwb.sourceforge.io/ 
 
 
-## The VRT-File 
+## The VRT-file 
 
 The VRT-file is not needed to use the corpus if the provided corpus files (the files in 'swift' and 'registry') are put in the required directories. The location of the files has to be specified in the registry-file, found in the folder 'registry'. The VRT-File allows for the corpus to be compiled locally from scratch. 
 
@@ -46,30 +46,18 @@ Additional metadata (structural attributes) are ```album_code```, ```album_title
 
 Different albums can not only be differentiated by the full name of the album but also by album codes, composed of three letters. They are as follows: 
 
-  TSW - Taylor Swift 
-
-  FER - Fearless
-
-  SPN - Speak Now
-  
-  RED - Red
-  
-  NEN - 1989
-  
-  REP - Reputation
-  
-  LVR - Lover 
-  
-  FOL - Folklore
-  
-  EVE - Evermore
-  
-  MID - Midnights
-  
-  TPD - The Tortured Poets Department
-  
-  OTH - Other Songs
-
+  TSW (Taylor Swift)
+  FER (Fearless)
+  SPN (Speak Now)  
+  RED (Red)  
+  NEN (1989)  
+  REP (Reputation)  
+  LVR (Lover)  
+  FOL (Folklore)  
+  EVE (Evermore)  
+  MID (Midnights)  
+  TPD (The Tortured Poets Department)  
+  OTH (Other Songs)
 
 ## Selection of songs 
 
