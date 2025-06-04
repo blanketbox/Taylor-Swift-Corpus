@@ -46,8 +46,8 @@ Additional metadata (structural attributes) are ```album_code```, ```album_title
 
 Different albums can not only be differentiated by the full name of the album but also by album codes, composed of three letters. They are as follows: 
 
-  TSW (Taylor Swift)
-  FER (Fearless)
+  TSW (Taylor Swift)  
+  FER (Fearless)  
   SPN (Speak Now)  
   RED (Red)  
   NEN (1989)  
