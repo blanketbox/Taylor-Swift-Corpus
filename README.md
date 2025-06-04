@@ -19,7 +19,7 @@ The corpus comprises 100763 tokens, of which approx. 90376 are words. The corpus
 These corpus files assume familiarity with the IMS Open Corpus Workbench and the corpus query language CQP. The corpus workbench can be downloaded here: https://cwb.sourceforge.io/ 
 
 
-## VRT-File 
+## The VRT-File 
 
 The VRT-file is not needed to use the corpus if the provided corpus files (the files in 'swift' and 'registry') are put in the required directories. The location of the files has to be specified in the registry-file, found in the folder 'registry'. The VRT-File allows for the corpus to be compiled locally from scratch. 
 
@@ -42,7 +42,7 @@ Available language data comprise the POS-tags (Penn Treebank), class-tags (less 
 
 Songs are tagged as ```<song>...</song>```, albums as ```<album>...</album>```. Every line in every song is tagged as ```<s>...</s>```. 
 
-Additional metadata (structural attributes) are album_code, album_title, album_year, album_o_year, s_type, song_title, song_number, song_vault and song_featured. For more information on the metadata and the possible values that they take, refer to the file '.info' in the folder 'swift'. 
+Additional metadata (structural attributes) are ```album_code```, ```album_title```, ```album_year```, ```album_o_year```, ```s_type```, ```song_title```, ```song_number```, ```song_vault``` and ```song_featured```. For more information on the metadata and the possible values that they take, refer to the file '.info' in the folder 'swift'. 
 
 Different albums can not only be differentiated by the full name of the album but also by album codes, composed of three letters. They are as follows: 
 
