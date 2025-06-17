@@ -29,7 +29,7 @@ If you wish to compile the corpus locally with the VRT-file, I advise that your 
 cwb-encode -d /YourPathToThisFolder/swift -c utf8 -f /YourPathToThisFile/swift.vrt -R /usr/local/share/cwb/registry/swift -P pos -P class -P lemma -S album:0+code+title+year+o_year -S song:0+number+title+vault+featured -S s:0+type
 ```
 
-This command assumes that the 'registry' folder for your CWB installation is ```/usr/local/share/cwb/```, which should be the default location. The location can vary, for example, if you installed CWB with homebrew (e.g. ```/opt/homebrew/share/cwb/```). Change the path if needed.
+This command assumes that the 'registry' folder for your CWB installation is in ```/usr/local/share/cwb/```, which should be the default location. The location can vary, for example, if you installed CWB with homebrew (e.g. ```/opt/homebrew/share/cwb/```). Change the path if needed.
 
 ## The XML-file 
 
