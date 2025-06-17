@@ -1,4 +1,4 @@
-# The Taylor Swift Corpus -- Version 1 
+# The Taylor Swift Corpus –– Version 1 
 
 Last updated: June 2025
 
@@ -22,6 +22,14 @@ These corpus files assume familiarity with the IMS Open Corpus Workbench and the
 ## The VRT-file 
 
 The VRT-file is not needed to use the corpus if the provided corpus files (the files in 'swift' and 'registry') are put in the required directories. The location of the files has to be specified in the registry-file, found in the folder 'registry'. The VRT-File allows for the corpus to be compiled locally from scratch. 
+
+If you wish to compile the corpus locally with the VRT-file, I advise that your ```cwb-encode``` command look similar to this: 
+
+```
+cwb-encode -d /YourPathToThisFolder/swift -c utf8 -f /YourPathToThisFile/swift.vrt -R /usr/local/share/cwb/registry/swift -P pos -P class -P lemma -S album:0+code+title+year+o_year -S song:0+number+title+vault+featured -S s:0+type
+```
+
+This command assumes that the 'registry' folder for your CWB installation is ```/usr/local/share/cwb/```, which should be the default location. The location can vary, for example, if you installed CWB with homebrew (e.g. ```/opt/homebrew/share/cwb/```). Change the path if needed.
 
 ## The XML-file 
 
@@ -57,7 +65,7 @@ Different albums can not only be differentiated by the full name of the album bu
   EVE (Evermore)  
   MID (Midnights)  
   TPD (The Tortured Poets Department)  
-  OTH (Other Songs)
+  OTH (Other songs)
 
 ## Selection of songs 
 
@@ -79,3 +87,7 @@ The album titles are as follows:
   Evermore                           
   Folklore                           
   Taylor Swift 
+
+A complete list of the songs can be found in the file '.info' in 'swift'. 
+
+### Have fun! 
