@@ -7,9 +7,9 @@ NAME "The Taylor Swift Corpus -- Version 1"
 # corpus ID (must be lowercase in registry!)
 ID   swift
 # path to binary data files
-HOME cove/swift
+HOME YourPathToThisFolder/swift
 # optional info file (displayed by "info;" command in CQP)
-INFO cove/swift/.info
+INFO YourPathToThisFolder/swift/.info
 
 # corpus properties provide additional information about the corpus:
 ##:: charset  = "utf8" # character encoding of corpus data
